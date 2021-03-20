@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import FakeData from '../FakeData/FakeData';
 import './Destination.css';
-import mapImage from '../images/Map.png'
+import mapImage from '../images/Map.png';
+import personImg from '../images/peopleicon.png'
 
 
 const Destination = () => {
@@ -54,7 +55,7 @@ const Destination = () => {
                         {transportData &&
                         <div className="row mt-5 container">
                         <div className="col-md-12 headline">
-                            <h3>Mirpur 1</h3>
+                            <h3>Mirpur 1 to</h3>
                             <h3>Dhanmondi</h3>
 
                         </div>
@@ -63,14 +64,14 @@ const Destination = () => {
                                 <div className="container">
                                 <div className="row">
                                     <div className="col-md-4">
-                                        <p>img</p>
+                                        <img className='transport-img img-fluid' src={data.image} alt=""/>
                                     </div>
                                     <div className="col-md-6">
                                         <span className='pr-3'>{data.type}</span>
-                                        <span>{data.seat}</span>
+                                        <span><img className='person-img img-fluid' src={personImg} />  {data.seat}</span>
                                     </div>
                                     <div className="col-md-2">
-                                        <p>{data.price}</p>
+                                        <p>{'$' +data.price}</p>
                                     </div>
                                 </div>
                             
