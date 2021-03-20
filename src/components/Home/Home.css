@@ -1,0 +1,28 @@
+.home-page{
+    background:url(../images/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+    /* .home-page{
+        background:url(../images/Bg.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        min-height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    } */
+
+.transport-box h3{
+    font-size: 25px;
+    color: rgb(15, 15, 15);
+}
+.card-box{
+    margin-right: 10px;
+}
+.card-row{
+    padding: 40px 50px;
+}

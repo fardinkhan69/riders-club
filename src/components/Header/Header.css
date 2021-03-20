@@ -1,0 +1,11 @@
+@media (min-width: 768px){
+    .margin-left-custom{
+        margin-left: 59rem!important;
+    }
+}
+.nav-item{
+    padding: 10px 10px;
+}
+.nav-color-white {
+    background: #fff !important;
+}

@@ -1,0 +1,21 @@
+.search-btn{
+    background: #e9593f;
+}
+.headline {
+    background: tomato;
+    color: #fff;
+    padding: 20px 10px;
+    margin-bottom: 21px;
+    border-radius: 27px;
+}
+.map-img {
+    width: 100%;
+    overflow: hidden;
+    padding: 4%;
+    height: 400px;
+    padding-left: 11%;
+}
+.info-box{
+    background: #dbdbdb;
+    padding:20px;
+}

@@ -1,0 +1,38 @@
+.login-form{
+    text-align: center;
+    border: 1px solid #000;
+    margin-left: 20%;
+}
+.btm-btn{
+    
+    background-color: transparent;
+    color: #FF6E40;
+    border: none;
+    box-shadow: none;
+    text-decoration: underline;
+ 
+}
+.btn-orange{
+    background-color: #FF6E40 !important;
+    color: #fff;
+}
+.divider {
+    width: 80%; 
+    border-bottom: 1px solid rgb(0 0 0 / 13%); 
+    
+    
+    
+    text-align: center; 
+    margin: 8px 0 18px; 
+    line-height: 0.1em;
+ } 
+ 
+ .divider span { 
+     background:#fff; 
+     padding:0 6px; 
+ }
+ .other-login {
+    width: 367px;
+    margin-left: 30%;
+}
+ 
