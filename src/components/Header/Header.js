@@ -23,10 +23,11 @@ const Header = () => {
                 }
                 </Nav>
             </Navbar> */}
+            
             <Navbar className='container nav-color-white' expand="lg">
                 <Navbar.Brand >Fast Movers</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav justify-content-end">
                     <Nav className="mr-auto">
                     <Link to='/' className='nav-item'>Home</Link>
                     <Link to='/destination/car' className='nav-item'>Destination</Link>

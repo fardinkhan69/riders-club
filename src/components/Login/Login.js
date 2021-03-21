@@ -7,6 +7,8 @@ import firebaseConfig from './firebase.config';
 import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router-dom';
 import './Login.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 
 if (!firebase.apps.length) {
@@ -161,7 +163,10 @@ const Login = () => {
     return (
         <div className='container'>
             <div className="row">
-                <div className="col-md-6 ml-5">
+                <div className="col-md-3">
+                    <span></span>
+                </div>
+                <div className="col-md-6">
                   
                     {newUser ? (
                         <Form className='login-form my-5 p-5' onSubmit={handleSubmit}>
@@ -221,10 +226,10 @@ const Login = () => {
                     
                     <div className="mt-3 other-login">
                     <h5 className="divider"><span>OR</span></h5>
-                    <button onClick={handleGoogleSignIn} className="w-75 btn btn-primary social-btn mb-2"><span>Continue With Google </span></button>
+                    <button onClick={handleGoogleSignIn} className="w-75 btn btn-primary social-btn mb-2"><span><FontAwesomeIcon icon={faGoogle} /> Continue With Google </span></button>
 
-                    {/* <FontAwesomeIcon icon={faGoogle} />
-                     */}
+                    
+                    
 
                     </div>
                     
@@ -234,6 +239,9 @@ const Login = () => {
                     <p style={{ color: 'red' }}>{user.error}</p>
                    
                    
+                </div>
+                <div className="col-md-3">
+                     <span></span>
                 </div>
             </div>
 

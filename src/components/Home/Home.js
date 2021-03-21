@@ -40,7 +40,7 @@ const Home = () => {
                     <Link to={`/destination/${car}`}>
                         <div className="card-box">
                             <Card style={{ width: '18rem',marginRight:'10px',padding:'40px' }}>
-                            <Card.Img variant="top" src={frame1} />
+                            <Card.Img variant="top" src={frame2} />
                             <Card.Body>
                                 <Card.Title>Car</Card.Title>
                                 
@@ -54,7 +54,7 @@ const Home = () => {
                     <Link to={`/destination/${bus}`}>
                         <div className="card-box">
                             <Card style={{ width: '18rem',marginRight:'10px',padding:'40px' }}>
-                            <Card.Img variant="top" src={frame2} />
+                            <Card.Img variant="top" src={frame1} />
                             <Card.Body>
                                 <Card.Title>Bus</Card.Title>
                                 

@@ -3,18 +3,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    background-position: bottom left;
+    
     
 }
-    /* .home-page{
-        background:url(../images/Bg.png);
-        background-repeat: no-repeat;
-        background-position: bottom left;
-        min-height: 100vh;
-        background-size: cover;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    } */
+   
 
 .transport-box h3{
     font-size: 25px;
@@ -25,4 +18,11 @@
 }
 .card-row{
     padding: 40px 50px;
+    padding-top: 13%;
+}
+.card-title {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
