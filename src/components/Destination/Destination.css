@@ -26,3 +26,9 @@
 .person-img {
     width: 20px;
 }
+.small-info-box {
+    background: #fff;
+   
+    padding: 18px 20px;
+    border-radius: 9px;
+}

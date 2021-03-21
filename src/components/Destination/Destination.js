@@ -61,7 +61,7 @@ const Destination = () => {
                         </div>
                         { fakeData.length > 0 && fakeData.map(data => {
                             return(
-                                <div className="container">
+                                <div className="container small-info-box">
                                 <div className="row">
                                     <div className="col-md-4">
                                         <img className='transport-img img-fluid' src={data.image} alt=""/>
