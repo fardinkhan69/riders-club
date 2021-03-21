@@ -13,6 +13,7 @@ import {
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Destination from './components/Destination/Destination';
 import Notfound from './components/NotFound/Notfound';
+import GoogleMap from './components/Map/GoogleMap';
 
 export const UserContext = createContext();
 
@@ -37,6 +38,9 @@ function App() {
           
           <Route exact path='/login'>
             <Login></Login>
+          </Route>
+          <Route path='/map'>
+            <GoogleMap></GoogleMap>
           </Route>
           <Route path="*">
             <Notfound></Notfound>

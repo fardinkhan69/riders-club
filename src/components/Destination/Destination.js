@@ -4,6 +4,7 @@ import FakeData from '../FakeData/FakeData';
 import './Destination.css';
 import mapImage from '../images/Map.png';
 import personImg from '../images/peopleicon.png'
+import GoogleMap from '../Map/GoogleMap';
 
 
 const Destination = () => {
@@ -92,7 +93,8 @@ const Destination = () => {
                 </div>
 
                 <div className="col-md-8 map-side">
-                    <img className='map-img' src={mapImage} alt=""/>
+                    
+                    <GoogleMap></GoogleMap>
                 </div>
             </div>
         </div>
